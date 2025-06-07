@@ -1,0 +1,24 @@
+{
+  "top_organizations_by_repo_count": [
+    {
+      "organization": "DevOps Central",
+      "repository_count": 740
+    },
+    {
+      "organization": "AI Research Labs",
+      "repository_count": 680
+    },
+    {
+      "organization": "CloudWorks Inc.",
+      "repository_count": 645
+    },
+    {
+      "organization": "Open Source Guild",
+      "repository_count": 610
+    },
+    {
+      "organization": "Frontend Masters",
+      "repository_count": 575
+    }
+  ]
+}
