@@ -1,0 +1,22 @@
+site_name: GitHub Metrics
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - content.tabs
+  palette:
+    primary: 'blue grey'
+    accent: 'light blue'
+
+plugins:
+  - search
+  - awesome-pages
+  - charts
+
+extra:
+  analytics: false
+
+markdown_extensions:
+  - attr_list
+  - tables
+  - pymdownx.details
