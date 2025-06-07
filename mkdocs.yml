@@ -4,17 +4,11 @@ theme:
   features:
     - navigation.tabs
     - content.tabs
-  palette:
-    primary: 'blue grey'
-    accent: 'light blue'
 
 plugins:
   - search
-  - awesome-pages
-  - charts
-
-extra:
-  analytics: false
+  - charts:
+      fences: true  # This enables the chart renderi
 
 markdown_extensions:
   - attr_list
