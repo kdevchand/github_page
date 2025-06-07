@@ -8,7 +8,8 @@ theme:
 plugins:
   - search
   - charts:
-      fences: true  # This enables the chart renderi
+      chart_script: true  # Required for chart rendering
+      chart_fences: true  # Required for fence blocks
 
 markdown_extensions:
   - attr_list
