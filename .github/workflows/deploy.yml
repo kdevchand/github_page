@@ -1,12 +1,16 @@
 name: Deploy
-on: 
-#  [push]
+on:
   workflow_dispatch:
+  push:
+    branches: [ main ]
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-      - run: pip install mkdocs mkdocs-material
+        with:
+          python-version: '3.13'
+      - run: pip install mkdocs mkdocs-material mkdocs-charts-plugin mkdocs-awesome-pages-plugin
       - run: mkdocs gh-deploy --force
