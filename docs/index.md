@@ -19,12 +19,11 @@
 </div>
 
 ## Repository Growth
-```chart
+``` chart
 type: bar
 data: docs/data/github_jsons/repos_created_last_6_months.json
 series: repositories_created
 labels: month
-title: New Repositories (Last 6 Months)
 ```
 
 ## Activity Trends
